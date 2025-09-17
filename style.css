@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Layouts & Responsive Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ======= HEADER (Flexbox) ======= -->
+  <header class="header">
+    <h1>My Responsive Website</h1>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ======= MAIN GRID LAYOUT ======= -->
+  <main class="grid-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h2>Sidebar</h2>
+      <ul>
+        <li>Quick Link 1</li>
+        <li>Quick Link 2</li>
+        <li>Quick Link 3</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <section class="content">
+      <h2>Welcome</h2>
+      <p>This page demonstrates how to use CSS Grid for layout and Flexbox for alignment.</p>
+
+      <!-- Flexbox Cards -->
+      <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ======= FOOTER (Flexbox) ======= -->
+  <footer class="footer">
+    <p>© 2025 My Website | Built with Flexbox + Grid</p>
+  </footer>
+</body>
+</html>
